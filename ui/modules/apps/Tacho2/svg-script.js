@@ -54,16 +54,10 @@ let tachometer = new TachometerV2(
   // YDeltagon add
   document.getElementById('tacho2airspeed'),
   document.getElementById('tacho2maxgear'),
-  document.getElementById('tacho2power'),
-  document.getElementById('tacho2torque'),
   document.getElementById('tacho2weight'),
   document.getElementById('tacho2oiltemp'),
-  // document.getElementById('tacho2l100km'),
-  // document.getElementById('tacho2maxpower'),
-  // document.getElementById('tacho2maxtorque'),
+  document.getElementById('tacho2odom'),
   document.getElementById('ico_abs'),
-
-  document.getElementsByClassName("tacho_glow")
 );
 
 let controller = new TachometerV2Controller();

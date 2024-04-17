@@ -38,13 +38,9 @@ class BaseTachometer {
     // YDeltagon add
     airspeedTextElement,
     maxgearTextElement,
-    powerTextElement,
-    torqueTextElement,
     weightTextElement,
     oiltempTextElement,
-    // l100kmTextElement,
-    // maxpowerTextElement,
-    // maxtorqueTextElement,
+    odomtempTextElement,
     icohasAbsElement,
     ////
 
@@ -100,13 +96,9 @@ class BaseTachometer {
     // YDeltagon add
     this.airspeedTextElement = airspeedTextElement;
     this.maxgearTextElement = maxgearTextElement;
-    this.powerTextElement = powerTextElement;
-    this.torqueTextElement = torqueTextElement;
     this.weightTextElement = weightTextElement;
     this.oiltempTextElement = oiltempTextElement;
-    // this.l100kmTextElement = l100kmTextElement;
-    // this.maxpowerTextElement = maxpowerTextElement;
-    // this.maxtorqueTextElement = maxtorqueTextElement;
+    this.odomtempTextElement = odomtempTextElement;
     this.icohasAbsElement = icohasAbsElement;
     ////
 
@@ -163,13 +155,9 @@ class TachometerV2 extends BaseTachometer {
       // YDeltagon add
       airspeedTextElement,
       maxgearTextElement,
-      powerTextElement,
-      torqueTextElement,
       weightTextElement,
       oiltempTextElement,
-      // l100kmTextElement,
-      // maxpowerTextElement,
-      // maxtorqueTextElement,
+      odomtempTextElement,
       icohasAbsElement,
       ////
 
@@ -213,13 +201,9 @@ class TachometerV2 extends BaseTachometer {
       // YDeltagon add
       airspeedTextElement,
       maxgearTextElement,
-      powerTextElement,
-      torqueTextElement,
       weightTextElement,
       oiltempTextElement,
-      // l100kmTextElement,
-      // maxpowerTextElement,
-      // maxtorqueTextElement,
+      odomtempTextElement,
       icohasAbsElement,
       ////
 
