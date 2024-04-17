@@ -2089,13 +2089,13 @@
         <text
            xml:space="preserve"
            style="display:inline;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.9126px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;opacity:0.75;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.978242"
-           x="326.32394"
+           x="324.32394"
            y="435.37021"
            id="tacho2power"
            inkscape:label="#tacho2power"><tspan
              sodipodi:role="line"
              id="tspan18"
-             x="326.32394"
+             x="324.32394"
              y="435.37021">0</tspan></text>
         <text
            xml:space="preserve"
@@ -2113,13 +2113,13 @@
         <text
            xml:space="preserve"
            style="display:inline;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.9126px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.75;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.978242"
-           x="336.68103"
+           x="338.68103"
            y="435.37241"
            id="tacho2torque"
            inkscape:label="#tacho2torque"><tspan
              sodipodi:role="line"
              id="tspan19"
-             x="336.68103"
+             x="338.68103"
              y="435.37241">0</tspan></text>
         <text
            xml:space="preserve"
@@ -2136,13 +2136,13 @@
         <text
            xml:space="preserve"
            style="display:inline;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.9126px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;opacity:0.75;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.978242"
-           x="326.32394"
+           x="324.32394"
            y="248.38666"
            id="tacho2maxpower"
            inkscape:label="#tacho2maxpower"><tspan
              sodipodi:role="line"
              id="tspan5"
-             x="326.32394"
+             x="324.32394"
              y="248.38666">0</tspan></text>
         <text
            xml:space="preserve"
@@ -2160,29 +2160,29 @@
         <text
            xml:space="preserve"
            style="display:inline;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.9126px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.75;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.978242"
-           x="336.68103"
+           x="338.68103"
            y="248.38885"
            id="tacho2maxtorque"
            inkscape:label="#tacho2maxtorque"><tspan
              sodipodi:role="line"
              id="tspan23"
-             x="336.68103"
+             x="338.68103"
              y="248.38885">0</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.8751px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:0.75;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.978242"
            x="331.36285"
-           y="204.53264"
+           y="200.53264"
            id="tacho2weight"
            inkscape:label="#tacho2weight"><tspan
              sodipodi:role="line"
              id="tspan20"
              x="331.36285"
-             y="204.53264">0</tspan></text>
+             y="200.53264">0</tspan></text>
         <g
            id="g9"
            inkscape:label="WhatIs"
-           style="display:inline;opacity:0.5"
+           style="display:inline;opacity:0"
            inkscape:highlight-color="#000000">
           <text
              xml:space="preserve"

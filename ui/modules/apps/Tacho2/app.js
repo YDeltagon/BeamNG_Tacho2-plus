@@ -1,10 +1,10 @@
 'use strict'
 
 angular.module('beamng.apps')
-  .directive('enhancedTacho3', [() => {
+  .directive('tacho2', [() => {
     return {
       template:
-        '<object style="width:100%; height:100%; box-sizing:border-box; point-event: none" type="image/svg+xml" data="/ui/modules/apps/enhancedTacho3/app.svg"></object>',
+        '<object style="width:100%; height:100%; box-sizing:border-box; point-event: none" type="image/svg+xml" data="/ui/modules/apps/Tacho2/app.svg"></object>',
       replace: true,
       restrict: 'EA',
       link: (scope, element, attrs) => {

@@ -137,6 +137,7 @@ class BaseTachometerController {
       // tacho.l100kmTextElement.textContent = this.data.l100kmtext;
       // tacho.maxpowerTextElement.textContent = this.data.maxpowertext;
       // tacho.maxtorqueTextElement.textContent = this.data.maxtorquetext;
+      tacho.icohasAbsElement.style['visibility'] = this.data.hasABS ? 'visible' : 'hidden';
       ////
 
   }
@@ -278,6 +279,7 @@ class BaseTachometerController {
     // this.data.l100kmtext = "3";
     // this.data.maxpowertext = "10";
     // this.data.maxtorquetext = "10";
+    this.data.hasABS = streams.electrics.hasABS;
     ////
 
     this.data.electrics = streams.electrics;
