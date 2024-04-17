@@ -1,8 +1,8 @@
 angular.module('beamng.apps')
-  .directive('enhancedForcedInduction', ['$log', 'Utils', ($log, Utils) => {
+  .directive('forcedInduction', ['$log', 'Utils', ($log, Utils) => {
     return {
       template:
-        '<object style="width:100%; height:100%; opacity: 0; box-sizing:border-box; box-shadow: none; border: none; point-event: none" type="image/svg+xml" data="/ui/modules/apps/enhancedforcedinduction/app.svg"></object>',
+        '<object style="width:100%; height:100%; opacity: 0; box-sizing:border-box; box-shadow: none; border: none; point-event: none" type="image/svg+xml" data="/ui/modules/apps/forcedInduction/app.svg"></object>',
       replace: true,
       restrict: 'EA',
       link: (scope, element, attrs) => {

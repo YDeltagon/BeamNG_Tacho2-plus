@@ -67,9 +67,6 @@ class BaseTachometerController {
 
   applyData(tacho) {
     tacho.speedTextElement.textContent = this.data.speedtext;
-    if (tacho.speedTextElement.textContent == "-Infinity" || tacho.speedTextElement.textContent == "Infinity") {
-      tacho.speedTextElement.textContent = "-";
-    };
     tacho.gearTextElement.textContent = this.data.geartext;
 
     tacho.fuelLevelBarElement.style['stroke-dashoffset'] = (1 - this.data.fuel) * tacho.fuelLevelBarLength;
@@ -82,19 +79,8 @@ class BaseTachometerController {
     tacho.icoIndicatorLeftElement.style['visibility'] = this.data.signalL ? 'visible' : 'hidden';
     tacho.icoIndicatorRightElement.style['visibility'] = this.data.signalR ? 'visible' : 'hidden';
 
-    if (typeof this.data.lowBeam !== 'undefined' && typeof this.data.highBeam !== 'undefined') {
-      for (let _i = 0; _i < tacho.backlightElements.length; _i++) {
-        tacho.backlightElements[_i].style['display'] = this.data.tachoGlowDisplayValue;
-      }
-      tacho.icoLightsLowBeamElement.style['display'] = this.data.lowBeam > 0.9 ? 'inline' : 'none';
-      tacho.icoLightsHighBeamElement.style['display'] = this.data.highBeam > 0.9 ? 'inline' : 'none';
-    } else {
-      for (let _i = 0; _i < tacho.backlightElements.length; _i++) {
-        tacho.backlightElements[_i].style['display'] = 'none';
-      }
-      tacho.icoLightsLowBeamElement.style['display'] = 'none';
-      tacho.icoLightsHighBeamElement.style['display'] = 'none';
-    }
+    tacho.icoLightsLowBeamElement.style['display'] = this.data.lowBeam > 0.9 ? 'inline' : 'none';
+    tacho.icoLightsHighBeamElement.style['display'] = this.data.highBeam > 0.9 ? 'inline' : 'none';
 
     tacho.revNeedleElement.setAttribute('transform', 'rotate(' + (
       (this.data.rpm * 270 - 135) < -135 ? -135 :
@@ -130,13 +116,10 @@ class BaseTachometerController {
       // YDeltagon add
       tacho.airspeedTextElement.textContent = this.data.airspeedtext;
       tacho.maxgearTextElement.textContent = this.data.maxgeartext;
-      tacho.powerTextElement.textContent = Math.floor(parseFloat(this.data.powertext));
-      tacho.torqueTextElement.textContent = Math.floor(parseFloat(this.data.torquetext));
       tacho.weightTextElement.textContent = Math.floor(parseFloat(this.data.weighttext));
       tacho.oiltempTextElement.textContent = Math.floor(parseFloat(this.data.oiltemptext));
-      // tacho.l100kmTextElement.textContent = this.data.l100kmtext;
-      // tacho.maxpowerTextElement.textContent = this.data.maxpowertext;
-      // tacho.maxtorqueTextElement.textContent = this.data.maxtorquetext;
+      tacho.odomtempTextElement.textContent = (parseFloat(this.data.odom) / 1000).toFixed(1);
+      tacho.icohasAbsElement.style['visibility'] = this.data.hasABS ? 'visible' : 'hidden';
       ////
 
   }
@@ -235,7 +218,7 @@ class BaseTachometerController {
       this.data.speedtext = unitSpeed(streams.electrics.airspeed);
 
       // YDeltagon add
-      this.data.airspeedtext = unitSpeed(streams.electrics.airspeed);
+      this.data.airspeedtext = "Electric";
       ////
 
     }
@@ -265,19 +248,15 @@ class BaseTachometerController {
     this.data.signalR = streams.electrics.signal_R;
     this.data.lowBeam = streams.electrics.lowbeam;
     this.data.highBeam = streams.electrics.highbeam;
-    this.data.tachoGlowDisplayValue = streams.electrics.lowbeam > 0.9 || streams.electrics.highbeam > 0.9 ? 'inline' : 'none';
     this.data.rpm = (streams.electrics.rpmTacho || 0.0) / this.data.rpmMax;
     this.data.rawRpm = streams.electrics.rpmTacho;
     this.data.rawRpmMax = streams.engineInfo[1];
 
     // YDeltagon add
-    this.data.powertext = (streams.engineInfo[21]* 0.986);
-    this.data.torquetext = streams.engineInfo[8];
     this.data.weighttext = streams.stats.total_weight;
     this.data.oiltemptext = streams.electrics.oiltemp;
-    // this.data.l100kmtext = "3";
-    // this.data.maxpowertext = "10";
-    // this.data.maxtorquetext = "10";
+    this.data.hasABS = streams.electrics.hasABS;
+    this.data.odom = streams.electrics.odometer;
     ////
 
     this.data.electrics = streams.electrics;
@@ -294,27 +273,6 @@ class BaseTachometerController {
 class TachometerV2Controller extends BaseTachometerController {
   constructor() {
     super();
-  }
-}
-
-class TachometerController extends BaseTachometerController {
-  constructor() {
-    super();
-  }
-
-  applyData(tacho) {
-    super.applyData(tacho);
-
-    tacho.fuelLevelBarElement.style['stroke-dashoffset'] = (1 - this.data.fuel) * tacho.fuelLevelBarLength;
-    tacho.fuelLevelBarDashesElement.style['stroke'] = '#fff';
-    tacho.waterTempBarElement.style['stroke-dashoffset'] = (1 - this.data.waterTemp) * tacho.waterTempBarLength;
-    tacho.waterTempBarDashesElement.style['stroke'] = '#fff';
-
-    tacho.revNeedleElement.setAttribute('transform', 'rotate(' + (
-      (this.data.rpm * 270 - 180) < -180 ? -180 :
-        (this.data.rpm * 270 - 180) > 90 ? 90 :
-          (this.data.rpm * 270 - 180)
-    ) + ',' + (tacho.width / 2) + ',' + (tacho.height / 2) + ')');
   }
 }
 
@@ -372,10 +330,6 @@ class BaseForcedInductionController {
   applyData(forcedInduction) {
     forcedInduction.pressureTextElement.textContent = document.roundDec(unitPressure(this.data.boost), 1);
 
-    for (let _i = 0; _i < forcedInduction.backlightElements.length; _i++) {
-      forcedInduction.backlightElements[_i].style['display'] = this.data.forcedInductionGlowDisplayValue;
-    }
-
     forcedInduction.pressureNeedleElement.setAttribute('transform', 'rotate(' + ((
       (unitPressure(this.data.boost) - this.data.pressureMin) / (this.data.pressureMax - this.data.pressureMin) < 0 ? 0 :
         (unitPressure(this.data.boost) - this.data.pressureMin) / (this.data.pressureMax - this.data.pressureMin) > 1 ? 1 :
@@ -403,8 +357,7 @@ class BaseForcedInductionController {
     this.data.pressureMax = Math.ceil(unitPressure(Math.max(forcedInduction.pressureMaxConst, streams.forcedInductionInfo.maxBoost)));
     this.data.pressureMin = Math.floor(unitPressure(forcedInduction.pressureMinConst));
     this.data.boost = 0;
-    this.data.forcedInductionGlowDisplayValue = streams.electrics.lowbeam > 0.9 || streams.electrics.highbeam > 0.9 ? 'inline' : 'none';
-
+    
     forcedInduction.pressureRedLineElement.style['stroke-dasharray'] = forcedInduction.pressureRedLineLength + ' ' + forcedInduction.pressureRedLineLength;
     forcedInduction.pressureRedLineElement.style['stroke-dashoffset'] = -0.8 * forcedInduction.pressureRedLineLength;
 
@@ -439,7 +392,6 @@ class BaseForcedInductionController {
   update(forcedInduction, streams) {
     this.data.forcedInductionInfo = streams.forcedInductionInfo;
     this.data.boost = streams.forcedInductionInfo.boost;
-    this.data.forcedInductionGlowDisplayValue = streams.electrics.lowbeam > 0.9 || streams.electrics.highbeam > 0.9 ? 'inline' : 'none';
     this.applyData(forcedInduction);
   }
 }

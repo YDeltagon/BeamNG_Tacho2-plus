@@ -1,0 +1,16 @@
+{
+  "domElement": "<forced-induction></forced-induction>",
+  "name": "ui.apps.forcedinduction.name",
+  "types": [
+    "ui.apps.categories.vehicle_info"
+  ],
+  "css": {
+    "bottom": "300px",
+    "height": "150px",
+    "width": "150px",
+    "right": "30px"
+  },
+  "author": "YDeltagon & nutunabe & fylhtq7779",
+  "version": "3",
+  "directive": "forcedInduction"
+}

@@ -1,0 +1,18 @@
+{
+  "domElement": "<tacho2></tacho2>",
+  "name": "ui.apps.tacho2.name",
+  "description": "Advanced Tacho, with more informations",
+  "types": [
+    "ui.apps.categories.vehicle_info"
+  ],
+  "css": {
+    "height": "300px",
+    "width": "300px",
+    "bottom": "0px",
+    "right": "0px"
+  },
+  "preserveAspectRatio": true,
+  "author": "YDeltagon & nutunabe & fylhtq7779",
+  "version": "3",
+  "directive": "tacho2"
+}

@@ -17,7 +17,7 @@ let revNeedleTrailDashSize = 5;
 let revCurveDashSize1 = 10;
 let revCurveDashSize2 = 6;
 
-let tachometer = new Tachometer(
+let tachometer = new TachometerV2(
   width,
   height,
   rpmTextSize,
@@ -54,18 +54,13 @@ let tachometer = new Tachometer(
   // YDeltagon add
   document.getElementById('tacho2airspeed'),
   document.getElementById('tacho2maxgear'),
-  document.getElementById('tacho2power'),
-  document.getElementById('tacho2torque'),
   document.getElementById('tacho2weight'),
   document.getElementById('tacho2oiltemp'),
-  // document.getElementById('tacho2l100km'),
-  // document.getElementById('tacho2maxpower'),
-  // document.getElementById('tacho2maxtorque'),
-
-  document.getElementsByClassName("tacho_glow")
+  document.getElementById('tacho2odom'),
+  document.getElementById('ico_abs'),
 );
 
-let controller = new TachometerController();
+let controller = new TachometerV2Controller();
 controller.setLayersVisible(false);
 
 let UiUnitscallback;
@@ -74,6 +69,8 @@ let unitSpeed = (val) => {
   let convertedVal = UiUnitscallback(val, 'speed');
   return Math.round(convertedVal.val);
 }
+
+document.roundDec = () => 0;
 
 document.wireThroughUnitSystem = (callback) => {
   UiUnitscallback = callback;

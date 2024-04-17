@@ -38,13 +38,10 @@ class BaseTachometer {
     // YDeltagon add
     airspeedTextElement,
     maxgearTextElement,
-    powerTextElement,
-    torqueTextElement,
     weightTextElement,
     oiltempTextElement,
-    // l100kmTextElement,
-    // maxpowerTextElement,
-    // maxtorqueTextElement,
+    odomtempTextElement,
+    icohasAbsElement,
     ////
 
     backlightElements
@@ -99,13 +96,10 @@ class BaseTachometer {
     // YDeltagon add
     this.airspeedTextElement = airspeedTextElement;
     this.maxgearTextElement = maxgearTextElement;
-    this.powerTextElement = powerTextElement;
-    this.torqueTextElement = torqueTextElement;
     this.weightTextElement = weightTextElement;
     this.oiltempTextElement = oiltempTextElement;
-    // this.l100kmTextElement = l100kmTextElement;
-    // this.maxpowerTextElement = maxpowerTextElement;
-    // this.maxtorqueTextElement = maxtorqueTextElement;
+    this.odomtempTextElement = odomtempTextElement;
+    this.icohasAbsElement = icohasAbsElement;
     ////
 
     this.backlightElements = backlightElements;
@@ -120,108 +114,6 @@ class BaseTachometer {
     this.revCurveDashesLength = revCurveDashesElement.getTotalLength();
     this.revRedLineLength = revRedLineElement.getTotalLength();
     this.revTextGuideLineLength = revTextGuideLineElement.getTotalLength();
-  }
-}
-
-class Tachometer extends BaseTachometer {
-  constructor(
-    width,
-    height,
-    rpmTextSize,
-    rpmTextCount,
-    rpmOffset,
-    rpmRange,
-    barDashCount,
-    barDashSize1,
-    barDashSize2,
-    revNeedleTrailDashSize,
-    revCurveDashSize1,
-    revCurveDashSize2,
-    speedTextElement,
-    revCurveDashesElement,
-    revNeedleElement,
-    revRedLineElement,
-    revTextGuideLineElement,
-    gearTextElement,
-    gearTextBackgroundElement,
-    revCurveElement,
-    revCurveMaskElement,
-    revNeedleTrailElement,
-    waterTempBarElement,
-    waterTempBarDashesElement,
-    fuelLevelBarElement,
-    fuelLevelBarDashesElement,
-    icoHandBrakeElement,
-    icoAbsElement,
-    icoIndicatorLeftElement,
-    icoIndicatorRightElement,
-    icoLightsLowBeamElement,
-    icoLightsHighBeamElement,
-
-    // YDeltagon add
-    airspeedTextElement,
-    maxgearTextElement,
-    powerTextElement,
-    torqueTextElement,
-    weightTextElement,
-    oiltempTextElement,
-    // l100kmTextElement,
-    // maxpowerTextElement,
-    // maxtorqueTextElement,
-    ////
-
-    backlightElements
-    // clickableAreaElements
-  ) {
-    super(
-      width,
-      height,
-      rpmTextSize,
-      rpmTextCount,
-      rpmOffset,
-      rpmRange,
-      barDashCount,
-      barDashSize1,
-      barDashSize2,
-      revNeedleTrailDashSize,
-      revCurveDashSize1,
-      revCurveDashSize2,
-      speedTextElement,
-      revCurveDashesElement,
-      revNeedleElement,
-      revRedLineElement,
-      revTextGuideLineElement,
-      gearTextElement,
-      gearTextBackgroundElement,
-      revCurveElement,
-      revCurveMaskElement,
-      revNeedleTrailElement,
-      waterTempBarElement,
-      waterTempBarDashesElement,
-      fuelLevelBarElement,
-      fuelLevelBarDashesElement,
-      icoHandBrakeElement,
-      icoAbsElement,
-      icoIndicatorLeftElement,
-      icoIndicatorRightElement,
-      icoLightsLowBeamElement,
-      icoLightsHighBeamElement,
-
-      // YDeltagon add
-      airspeedTextElement,
-      maxgearTextElement,
-      powerTextElement,
-      torqueTextElement,
-      weightTextElement,
-      oiltempTextElement,
-      // l100kmTextElement,
-      // maxpowerTextElement,
-      // maxtorqueTextElement,
-      ////
-
-      backlightElements
-      // clickableAreaElements
-    );
   }
 }
 
@@ -263,13 +155,10 @@ class TachometerV2 extends BaseTachometer {
       // YDeltagon add
       airspeedTextElement,
       maxgearTextElement,
-      powerTextElement,
-      torqueTextElement,
       weightTextElement,
       oiltempTextElement,
-      // l100kmTextElement,
-      // maxpowerTextElement,
-      // maxtorqueTextElement,
+      odomtempTextElement,
+      icohasAbsElement,
       ////
 
     backlightElements
@@ -312,13 +201,10 @@ class TachometerV2 extends BaseTachometer {
       // YDeltagon add
       airspeedTextElement,
       maxgearTextElement,
-      powerTextElement,
-      torqueTextElement,
       weightTextElement,
       oiltempTextElement,
-      // l100kmTextElement,
-      // maxpowerTextElement,
-      // maxtorqueTextElement,
+      odomtempTextElement,
+      icohasAbsElement,
       ////
 
       backlightElements

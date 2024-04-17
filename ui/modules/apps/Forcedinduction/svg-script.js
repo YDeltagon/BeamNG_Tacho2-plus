@@ -35,7 +35,6 @@ let forcedInduction = new BaseForcedInduction(
   document.getElementById('pressureCurve'),
   document.getElementById('pressureMask'),
   document.getElementById('pressureTrail'),
-  document.getElementsByClassName("fi_glow")
 );
 
 let controller = new BaseForcedInductionController();

@@ -3,13 +3,34 @@
 
 **enhancedTacho3** is an advanced version of the Tacho2 application from the base game (BeamNG)
 
-
-## **v2.0** - [enhancedTacho](https://www.beamng.com/resources/enhanced-tachometer.27289/) & [Simple power, weight, ratio](https://www.beamng.com/resources/simple-power-weight-ratio.23693/) integrated and modified
-> A huge thanks to [nutunabe](https://www.beamng.com/resources/authors/nutunabe.541038/) for his original mod and for granting permission & [fylhtq7779](https://www.beamng.com/members/fylhtq7779.133344) (at the moment, my MP is not read :D)
+> [enhancedTacho](https://www.beamng.com/resources/enhanced-tachometer.27289/) & [Simple power, weight, ratio](https://www.beamng.com/resources/simple-power-weight-ratio.23693/) integrated | Thanks to [nutunabe](https://www.beamng.com/resources/authors/nutunabe.541038/)  & [fylhtq7779](https://www.beamng.com/members/fylhtq7779.133344)
 
 
+## **v3.0** - Lite, Opti and New Features
 
-## 🔧 Features
+## 🆕 new Features
+- **Color**
+  - **MAXPower** > ORANGE
+  - **MAXTorque** > BLUE
+  - **Weight** > GREEN
+- **ABS**
+  - Disabled if the car is not equipped with it
+- **UI Apps**
+  - ET3 overrides the default 'Tacho2' app in the game, making it unnecessary to change the in-game interface
+    >If my mod is activated, it will replace 'Tacho2' on all your pages.
+- **Version**
+  - **Only V2**
+     > I have removed the V1 and Classic versions, which were not very useful.
+
+## 🥺 delete Features
+- **Power in real-time**
+- **Torque in real-time**
+- **Glow with Light** *very lagy*
+- **V1 and classic**
+
+## **v2.0** - FUSION
+
+## 🆕 new Features
 - **Speed**
   - **Wheel Speed** (like the basic Tacho)
   - **Air Speed** (ultra-precise GPS speed)
@@ -27,18 +48,6 @@
 
 ## ➕ Full Explain
 ![Tacho 3 Big Image](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/screenshots/enhancedTacho3V2-BIG.png)
-
-
-## 🔜 Upcoming Features
-- No news (for the moment)
-
-
-## 📺 Design
-![enhancedTacho3Needle](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/screenshots/NeedleOnly.png)
-
-![enhancedTacho3Trail](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/screenshots/TrailOnly.png)
-
-![enhancedTacho3 Light on W/ needle and trail](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/screenshots/WithLights-Needle&Trail.png)
 
 
 ## 📥 Download
