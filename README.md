@@ -5,6 +5,10 @@
 > [Enhanced Tachometer and Forced Induction](https://www.beamng.com/resources/enhanced-tachometer.27289/) & [Simple power, weight, ratio](https://www.beamng.com/resources/simple-power-weight-ratio.23693/) integrated | Thanks to [nutunabe](https://www.beamng.com/resources/authors/nutunabe.541038/)  & [fylhtq7779](https://www.beamng.com/members/fylhtq7779.133344)
 
 
+## ➕ Full Explain
+![Tacho 3 Big Image](https://github.com/YDeltagon/BeamNG_eTacho/raw/Master/screenshots/enhancedTacho-BIG.png)
+
+
 ## **v3.5** - Review-back
 
 ## 🆗 is BACK
@@ -39,7 +43,6 @@
 
 ## 🆕 new Features
 - **Speed**
-  - **Wheel Speed** (like the basic Tacho)
   - **Air Speed** (ultra-precise GPS speed)
 - **Power & Torque**
   - **Power in real-time** (at the flywheel) [HP]
@@ -51,10 +54,6 @@
   - **Maximum Gearbox** Max of your gearbox (4/5/6...)
   - **️Oil text Temperature**
   - **Weight in real-time**
-
-
-## ➕ Full Explain
-![Tacho 3 Big Image](https://github.com/YDeltagon/BeamNG_eTacho/raw/Master/screenshots/enhancedTacho-BIG.png)
 
 
 ## 📥 Download
