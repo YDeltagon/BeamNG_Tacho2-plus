@@ -1,4 +1,4 @@
-# ![enhancedTacho3Header](https://github.com/YDeltagon/BeamNG_eTacho/raw/Master/screenshots/Header.png)
+# ![enhancedTacho3Header](https://github.com/YDeltagon/BeamNG_eTacho/raw/Master/screenshots/enhancedHeader.png)
 
 **enhancedTacho** is an advanced version of the Tacho2 application from the base game (BeamNG)
 
