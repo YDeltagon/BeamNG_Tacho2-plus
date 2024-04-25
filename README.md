@@ -1,9 +1,8 @@
 # ![enhancedTacho3Header](https://github.com/YDeltagon/BeamNG_eTacho/raw/Master/screenshots/Header.png)
 
+**enhancedTacho** is an advanced version of the Tacho2 application from the base game (BeamNG)
 
-**enhancedTacho3** is an advanced version of the Tacho2 application from the base game (BeamNG)
-
-> [enhancedTacho](https://www.beamng.com/resources/enhanced-tachometer.27289/) & [Simple power, weight, ratio](https://www.beamng.com/resources/simple-power-weight-ratio.23693/) integrated | Thanks to [nutunabe](https://www.beamng.com/resources/authors/nutunabe.541038/)  & [fylhtq7779](https://www.beamng.com/members/fylhtq7779.133344)
+> [Enhanced Tachometer and Forced Induction](https://www.beamng.com/resources/enhanced-tachometer.27289/) & [Simple power, weight, ratio](https://www.beamng.com/resources/simple-power-weight-ratio.23693/) integrated | Thanks to [nutunabe](https://www.beamng.com/resources/authors/nutunabe.541038/)  & [fylhtq7779](https://www.beamng.com/members/fylhtq7779.133344)
 
 
 ## **v3.5** - Review-back
@@ -59,7 +58,7 @@
 
 
 ## 📥 Download
-The application is directly available on the [BeamNG repository](https://www.beamng.com/resources/enhancedtacho3.27982)
+The application is directly available on the [BeamNG repository](https://www.beamng.com/resources/enhancedtacho-stylish-interface-superior-information-real-time-vehicle-monitoring.27982)
 
 
 ## 📌 Note
@@ -68,26 +67,7 @@ Your feedback are greatly appreciated
 
 
 ## 📝 Feedback and Contributions
-If you have ideas, suggestions, contributions, or if you encounter any errors, please open an [Issue](https://github.com/YDeltagon/BeamNG_Tacho3/issues) or [Pulls](https://github.com/YDeltagon/BeamNG_Tacho3/pulls)
-
-
-## 🤝 How to Contribute
-1. **Fork**: Start by forking the [enhancedTacho3 repository](https://github.com/YDeltagon/BeamNG_Tacho3)
-
-2. **Clone Your Fork** to your local machine
-
-3. **Create a New Branch** for your feature or bug fix
-
-4. **Make Your Changes** and commit them with a clear and descriptive message
-
-5. **Push to GitHub** your changes to your fork on GitHub
-
-6. **Create a Pull Request** from your fork to the main repository. Be sure to provide a detailed description of your changes
-
-7. **Wait for Review**, and if everything looks good, they will be merged into the main project
-
-Feel free to open an issue if you have any questions or need further guidance !
-
+If you have ideas, suggestions, contributions, or if you encounter any errors, please open an [Issue](https://github.com/YDeltagon/BeamNG_Tacho3/issues)/[Pulls](https://github.com/YDeltagon/BeamNG_Tacho3/pulls) , or, post a [Review](https://www.beamng.com/resources/enhancedtacho-stylish-interface-superior-information-real-time-vehicle-monitoring.27982/reviews)
 
 ## 📜 License
 
@@ -95,6 +75,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 It's completely open-source, and contributions are welcome !
 
+
+## 🤑 Support:
+[Paypal](https://www.paypal.com/donate/?hosted_button_id=ZE33LD38M4ALN)
 
 ---
 
