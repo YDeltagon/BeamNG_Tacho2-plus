@@ -55,6 +55,8 @@ let tachometer = new TachometerV2(
   document.getElementById('tacho2airspeed'),
   document.getElementById('tacho2maxgear'),
   document.getElementById('tacho2weight'),
+  document.getElementById('tacho2torque'),
+  document.getElementById('tacho2power'),
   document.getElementById('tacho2oiltemp'),
   document.getElementById('tacho2odom'),
   document.getElementById('ico_abs'),

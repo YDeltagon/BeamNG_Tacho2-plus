@@ -1,7 +1,7 @@
 {
-  "domElement": "<tacho2></tacho2>",
-  "name": "ui.apps.tacho2.name",
-  "description": "Advanced Tacho, with more informations",
+  "domElement": "<tacho2classic></tacho2classic>",
+  "name": "Tacho2 classic",
+  "description": "More informations",
   "types": [
     "ui.apps.categories.vehicle_info"
   ],
@@ -12,7 +12,7 @@
     "right": "0px"
   },
   "preserveAspectRatio": true,
-  "author": "YDeltagon & nutunabe & fylhtq7779",
+  "author": "YDeltagon & nutunabe & fylhtq7779 & BeamNG.Dev",
   "version": "3.5",
-  "directive": "tacho2"
+  "directive": "tacho2classic"
 }

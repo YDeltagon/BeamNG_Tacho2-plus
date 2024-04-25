@@ -39,6 +39,8 @@ class BaseTachometer {
     airspeedTextElement,
     maxgearTextElement,
     weightTextElement,
+    torqueTextElement,
+    powerTextElement,
     oiltempTextElement,
     odomtempTextElement,
     icohasAbsElement,
@@ -97,6 +99,8 @@ class BaseTachometer {
     this.airspeedTextElement = airspeedTextElement;
     this.maxgearTextElement = maxgearTextElement;
     this.weightTextElement = weightTextElement;
+    this.torqueTextElement = torqueTextElement;
+    this.powerTextElement = powerTextElement;
     this.oiltempTextElement = oiltempTextElement;
     this.odomtempTextElement = odomtempTextElement;
     this.icohasAbsElement = icohasAbsElement;
@@ -156,6 +160,8 @@ class TachometerV2 extends BaseTachometer {
       airspeedTextElement,
       maxgearTextElement,
       weightTextElement,
+      torqueTextElement,
+      powerTextElement,
       oiltempTextElement,
       odomtempTextElement,
       icohasAbsElement,
@@ -202,6 +208,8 @@ class TachometerV2 extends BaseTachometer {
       airspeedTextElement,
       maxgearTextElement,
       weightTextElement,
+      torqueTextElement,
+      powerTextElement,
       oiltempTextElement,
       odomtempTextElement,
       icohasAbsElement,

@@ -1,9 +1,17 @@
-# ![enhancedTacho3Header](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/screenshots/Header.png)
+# ![enhancedTacho3Header](https://github.com/YDeltagon/BeamNG_eTacho/raw/Master/screenshots/Header.png)
 
 
 **enhancedTacho3** is an advanced version of the Tacho2 application from the base game (BeamNG)
 
 > [enhancedTacho](https://www.beamng.com/resources/enhanced-tachometer.27289/) & [Simple power, weight, ratio](https://www.beamng.com/resources/simple-power-weight-ratio.23693/) integrated | Thanks to [nutunabe](https://www.beamng.com/resources/authors/nutunabe.541038/)  & [fylhtq7779](https://www.beamng.com/members/fylhtq7779.133344)
+
+
+## **v3.5** - Review-back
+
+## 🆗 is BACK
+- Version classic **is BACK**
+- Power in real-time **is BACK**
+- Layout **rework**
 
 
 ## **v3.0** - Lite, Opti and New Features
@@ -47,7 +55,7 @@
 
 
 ## ➕ Full Explain
-![Tacho 3 Big Image](https://github.com/YDeltagon/BeamNG_Tacho3/raw/Master/screenshots/enhancedTacho3V2-BIG.png)
+![Tacho 3 Big Image](https://github.com/YDeltagon/BeamNG_eTacho/raw/Master/screenshots/enhancedTacho-BIG.png)
 
 
 ## 📥 Download

@@ -968,7 +968,8 @@
        y1="249.00925"
        x2="312.68497"
        y2="249.00925"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.01148589,3.9627795)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -977,16 +978,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="330.21885"
-     inkscape:cy="329.8653"
+     inkscape:zoom="4"
+     inkscape:cx="243.5"
+     inkscape:cy="402.875"
      inkscape:document-units="px"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="g2"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1057"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
      inkscape:window-x="-8"
-     inkscape:window-y="44"
+     inkscape:window-y="1069"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -1312,26 +1313,26 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:55.9001px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:0.75;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.978242"
-         x="331.34995"
-         y="555.09784"
+         x="331.45627"
+         y="584.37274"
          id="tacho2speed"
          inkscape:label="#tacho2speed"><tspan
            sodipodi:role="line"
            id="tspan8"
-           x="331.34995"
-           y="555.09784">0</tspan></text>
+           x="331.45627"
+           y="584.37274">0</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.9376px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:0.75;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.977905;stroke-dasharray:none"
-         x="331.36108"
-         y="627.64435"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.9501px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:0.75;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.977905;stroke-dasharray:none"
+         x="331.65189"
+         y="426.89709"
          id="tacho2odom"
          inkscape:label="#tacho2odom"><tspan
            sodipodi:role="line"
            id="tspan1"
-           x="331.36108"
-           y="627.64435"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.9375639px;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.977905">0</tspan></text>
+           x="331.65189"
+           y="426.89709"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.9501px;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.977905">0</tspan></text>
       <g
          id="g2"
          style="display:inline"
@@ -1364,14 +1365,14 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:125.775px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.978242"
-           x="330.94354"
-           y="507.37146"
+           x="330.96808"
+           y="540.72266"
            id="tacho2airspeed"
            inkscape:label="#tacho2airspeed"><tspan
              sodipodi:role="line"
              id="tspan17"
-             x="330.94354"
-             y="507.37146">0</tspan></text>
+             x="330.96808"
+             y="540.72266">0</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.9376px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:0.75;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.599404"
@@ -1385,144 +1386,91 @@
              x="419.47229"
              y="371.05618">0</tspan></text>
         <text
+           inkscape:label="#tacho2torque"
+           id="tacho2torque"
+           y="254.86804"
+           x="354.82025"
+           style="display:inline;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.9126px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.75;fill:#80d4ff;fill-opacity:1;stroke:none;stroke-width:1.04813"
+           xml:space="preserve"
+           transform="scale(0.97242854,1.0283532)"><tspan
+             sodipodi:role="line"
+             id="tspan3633"
+             x="354.82025"
+             y="254.86804"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.9126px;line-height:1.25;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#80d4ff;fill-opacity:1;stroke-width:1.04813">0</tspan></text>
+        <text
+           xml:space="preserve"
+           style="display:inline;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.7393px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;opacity:0.5;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.914777"
+           x="310.36337"
+           y="276.09497"
+           id="tacho2maxpowermaxtorque-9"
+           inkscape:label="#tacho2maxpowermaxtorque"
+           transform="scale(1.0693775,0.93512348)"><tspan
+             sodipodi:role="line"
+             id="tspan6-8"
+             x="310.36337"
+             y="276.09497"
+             style="fill:#ffffff;fill-opacity:1;stroke-width:0.914777">|</tspan></text>
+        <text
+           inkscape:label="#tacho2power"
+           id="tacho2power"
+           y="254.8681"
+           x="326.97668"
+           style="display:inline;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.9126px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;opacity:0.75;fill:#ffeb80;fill-opacity:1;stroke:none;stroke-width:1.04813"
+           xml:space="preserve"
+           transform="scale(0.97242844,1.0283533)"><tspan
+             sodipodi:role="line"
+             id="tspan5379"
+             x="326.97668"
+             y="254.8681"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.9126px;line-height:1.25;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffeb80;fill-opacity:1;stroke-width:1.04813">0</tspan></text>
+        <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.9126px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;display:inline;opacity:0.75;fill:#ffeb80;fill-opacity:1;stroke:none;stroke-width:0.978242"
-           x="318.0351"
-           y="248.38666"
+           x="318.50467"
+           y="226.60268"
            id="tacho2maxpower"
            inkscape:label="#tacho2maxpower"><tspan
              sodipodi:role="line"
              id="tspan5"
-             x="318.0351"
-             y="248.38666">0</tspan></text>
+             x="318.50467"
+             y="226.60268">0</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.7393px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:0.5;fill:url(#linearGradient14);fill-opacity:1;stroke:none;stroke-width:0.914777"
-           x="310.37512"
-           y="262.75391"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.7393px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:0.5;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.914777"
+           x="310.36368"
+           y="241.04369"
            id="tacho2maxpowermaxtorque"
            inkscape:label="#tacho2maxpowermaxtorque"
            transform="scale(1.0693775,0.93512348)"><tspan
              sodipodi:role="line"
              id="tspan6"
-             x="310.37512"
-             y="262.75391"
-             style="stroke-width:0.914777;fill-opacity:1;fill:url(#linearGradient14)">|</tspan></text>
+             x="310.36368"
+             y="241.04369"
+             style="fill:#ffffff;fill-opacity:1;stroke-width:0.914777">|</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.9126px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:0.75;fill:#80d4ff;fill-opacity:1;stroke:none;stroke-width:0.978242"
            x="344.96991"
-           y="248.38876"
+           y="226.60478"
            id="tacho2maxtorque"
            inkscape:label="#tacho2maxtorque"><tspan
              sodipodi:role="line"
              id="tspan23"
              x="344.96991"
-             y="248.38876">0</tspan></text>
+             y="226.60478">0</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.8756px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:0.75;fill:#80ff89;fill-opacity:1;stroke:none;stroke-width:0.977905;stroke-dasharray:none"
-           x="331.36108"
-           y="206.29735"
+           x="331.35699"
+           y="192.29474"
            id="tacho2weight"
            inkscape:label="#tacho2weight"><tspan
              sodipodi:role="line"
              id="tspan20"
-             x="331.36108"
-             y="206.29735"
-             style="stroke-width:0.977905;fill:#80ff89;fill-opacity:1">0</tspan></text>
-        <g
-           id="g9"
-           inkscape:label="WhatIs"
-           style="display:none;opacity:0.5"
-           inkscape:highlight-color="#000000">
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.78252px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.978242"
-             x="147.88803"
-             y="691.461"
-             id="witacho2l100km"
-             inkscape:label="#witacho2l100km"
-             inkscape:highlight-color="#000000"
-             transform="rotate(-25)"><tspan
-               sodipodi:role="line"
-               id="tspan9"
-               x="147.88803"
-               y="691.461">l/100km</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.78252px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.978242"
-             x="452.72598"
-             y="410.43927"
-             id="witacho2oiltemp"
-             inkscape:label="#witacho2oiltemp"
-             inkscape:highlight-color="#000000"
-             transform="rotate(25)"><tspan
-               sodipodi:role="line"
-               id="tspan10"
-               x="452.72598"
-               y="410.43927">Oil</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.78252px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.978242"
-             x="331.95825"
-             y="520.43317"
-             id="witacho2wheelspeed"
-             inkscape:label="#witacho2wheelspeed"
-             inkscape:highlight-color="#000000"><tspan
-               sodipodi:role="line"
-               id="tspan15"
-               x="331.95825"
-               y="520.43317">Wheel</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.78252px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.978242"
-             x="331.68396"
-             y="424.12076"
-             id="witacho2airspeed"
-             inkscape:label="#witacho2airspeed"
-             inkscape:highlight-color="#000000"><tspan
-               sodipodi:role="line"
-               id="tspan14"
-               x="331.68396"
-               y="424.12076">Air</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.9501px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#ffeb80;fill-opacity:1;stroke:none;stroke-width:0.978242"
-             x="223.03841"
-             y="267.74554"
-             id="text1"
-             inkscape:label="#witacho2maxpower"
-             inkscape:highlight-color="#000000"><tspan
-               sodipodi:role="line"
-               id="tspan3"
-               x="223.03841"
-               y="267.74554">Power</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.9501px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#80d4ff;fill-opacity:1;stroke:none;stroke-width:0.978242"
-             x="447.96603"
-             y="267.74588"
-             id="text2"
-             inkscape:label="#witacho2maxtorque"
-             inkscape:highlight-color="#000000"><tspan
-               sodipodi:role="line"
-               id="tspan2"
-               x="447.96603"
-               y="267.74588">Torque</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.9501px;line-height:0%;font-family:'Squada One';-inkscape-font-specification:'Squada One, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#80ff89;fill-opacity:1;stroke:none;stroke-width:0.978242"
-             x="331.88858"
-             y="155.9205"
-             id="witacho2weight"
-             inkscape:label="#witacho2weight"
-             inkscape:highlight-color="#000000"><tspan
-               sodipodi:role="line"
-               id="tspan13"
-               x="331.88858"
-               y="155.9205">Weight</tspan></text>
-        </g>
+             x="331.35699"
+             y="192.29474"
+             style="fill:#80ff89;fill-opacity:1;stroke-width:0.977905">0</tspan></text>
       </g>
     </g>
     <path
@@ -1587,18 +1535,8 @@
      transform="matrix(0.71506687,0,0,0.71506687,33.665253,21.530017)"
      sodipodi:insensitive="true">
     <path
-       style="display:inline;fill:#000000;fill-opacity:0.251799;stroke:none;stroke-width:5.25831;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 322.76306,333.74345 0.0615,18.89676 17.09604,0.27218 v 11.10129 11.10129 l -17.09604,0.27213 -0.0615,18.89676 -39.07666,-30.27018 z"
-       id="ico_indicatorl"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccc"
-       inkscape:export-filename="C:\Users\sam\Desktop\mobile.jpg.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       inkscape:label="#rect4655-9" />
-    <path
-       style="display:inline;fill:#000000;fill-opacity:0.251799;stroke:none;stroke-width:5.25831;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 506.0067,333.86665 -0.0616,18.89677 -17.09607,0.27216 v 11.10129 11.1013 l 17.09607,0.27213 0.0616,18.89674 39.07666,-30.27017 z"
+       style="display:inline;fill:#000000;fill-opacity:0.251799;stroke:none;stroke-width:5.04122;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 513.99271,347.47797 -0.0613,17.46046 -17.00623,0.25147 v 10.25751 10.25751 l 17.00623,0.25144 0.0613,17.46043 38.87131,-27.96938 z"
        id="ico_indicatorr"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc"
@@ -1606,6 +1544,16 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
        inkscape:label="#rect4655-9-3" />
+    <path
+       style="display:inline;fill:#000000;fill-opacity:0.251799;stroke:none;stroke-width:5.04123;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 314.83825,347.47797 0.0612,17.46045 17.00624,0.25149 v 10.2575 10.25749 l -17.00624,0.25145 -0.0612,17.46044 -38.87141,-27.96938 z"
+       id="ico_indicatorl"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="C:\Users\sam\Desktop\mobile.jpg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:label="#rect4655-9" />
     <g
        id="ico_abs"
        inkscape:label="#g4111"
@@ -1705,7 +1653,7 @@
     <g
        id="g7205"
        style="display:inline"
-       transform="translate(25.304599,60.794015)">
+       transform="matrix(0.9994648,0,0,0.92837713,32.002278,98.064905)">
       <path
          style="display:inline;fill:#70ff66;fill-opacity:1;stroke:none;stroke-width:3.88732;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 539.56597,367.72761 -0.0456,13.96984 -12.63864,0.20121 v 8.20688 8.20687 l 12.63864,0.20118 0.0456,13.96983 28.88828,-22.37788 z"
@@ -1721,7 +1669,7 @@
     <g
        id="g4367"
        style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#6fff65;fill-opacity:1;stroke:none;stroke-width:3.89053;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
-       transform="translate(-25.44191,60.692734)">
+       transform="matrix(0.99864706,0,0,0.92761134,-31.390924,98.296671)">
       <path
          style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#6fff65;fill-opacity:1;stroke:none;stroke-width:4.30235;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          d="m 441.32358,365.40397 0.0502,15.46131 13.98797,0.2227 v 9.08308 9.08307 l -13.98797,0.22265 -0.0502,15.46132 -31.9725,-24.76704 z"

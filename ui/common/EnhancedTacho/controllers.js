@@ -117,6 +117,8 @@ class BaseTachometerController {
       tacho.airspeedTextElement.textContent = this.data.airspeedtext;
       tacho.maxgearTextElement.textContent = this.data.maxgeartext;
       tacho.weightTextElement.textContent = Math.floor(parseFloat(this.data.weighttext));
+      tacho.torqueTextElement.textContent = Math.floor(parseFloat(this.data.torquetext));
+      tacho.powerTextElement.textContent = Math.floor(parseFloat(this.data.powertext));
       tacho.oiltempTextElement.textContent = Math.floor(parseFloat(this.data.oiltemptext));
       tacho.odomtempTextElement.textContent = (parseFloat(this.data.odom) / 1000).toFixed(1);
       tacho.icohasAbsElement.style['visibility'] = this.data.hasABS ? 'visible' : 'hidden';
@@ -254,6 +256,8 @@ class BaseTachometerController {
 
     // YDeltagon add
     this.data.weighttext = streams.stats.total_weight;
+    this.data.powertext = streams.engineInfo[21];
+    this.data.torquetext = streams.engineInfo[8];
     this.data.oiltemptext = streams.electrics.oiltemp;
     this.data.hasABS = streams.electrics.hasABS;
     this.data.odom = streams.electrics.odometer;

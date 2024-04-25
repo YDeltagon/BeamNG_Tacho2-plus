@@ -1,0 +1,24 @@
+svg {
+  -webkit-user-select: none;
+  cursor: default;
+}
+
+@font-face {
+  font-family: Open Sans Bold;
+  src: url(/ui/common/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url(/ui/common/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Open Sans Extrabold;
+  src: url(/ui/common/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Squada One;
+  src: url(/ui/common/SquadaOne-Regular.ttf);
+}
