@@ -5,8 +5,8 @@
 > [Enhanced Tachometer and Forced Induction](https://www.beamng.com/resources/enhanced-tachometer.27289/) & [Simple power, weight, ratio](https://www.beamng.com/resources/simple-power-weight-ratio.23693/) integrated | Thanks to [nutunabe](https://www.beamng.com/resources/authors/nutunabe.541038/)  & [fylhtq7779](https://www.beamng.com/members/fylhtq7779.133344)
 
 
-## ➕ Full Explain
-![Tacho 3 Big Image](https://github.com/YDeltagon/BeamNG_eTacho/raw/Master/screenshots/enhancedTacho-BIG.png)
+## To-do list
+- Odom. on TOTAL based on stats in-game
 
 
 ## **v3.5** - Review-back
@@ -60,18 +60,11 @@
 The application is directly available on the [BeamNG repository](https://www.beamng.com/resources/enhancedtacho-stylish-interface-superior-information-real-time-vehicle-monitoring.27982)
 
 
-## 📌 Note
-This is my first mod, please be kind
-Your feedback are greatly appreciated
-
-
 ## 📝 Feedback and Contributions
 If you have ideas, suggestions, contributions, or if you encounter any errors, please open an [Issue](https://github.com/YDeltagon/BeamNG_Tacho3/issues)/[Pulls](https://github.com/YDeltagon/BeamNG_Tacho3/pulls) , or, post a [Review](https://www.beamng.com/resources/enhancedtacho-stylish-interface-superior-information-real-time-vehicle-monitoring.27982/reviews)
 
 ## 📜 License
-
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 It's completely open-source, and contributions are welcome !
 
 
