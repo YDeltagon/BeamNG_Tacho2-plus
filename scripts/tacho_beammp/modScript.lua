@@ -1,0 +1,1 @@
+registerCoreModule('scripts/tacho_beammp/nononobeammp')
